@@ -573,6 +573,11 @@ a:hover {
 .header-image {
 	margin-top: 24px;
 	margin-top: 1.714285714rem;
+  width: 80px;
+}
+.header-link {
+	float:left;
+  margin-bottom: 5px;
 }
 
 /* Navigation Menu */
@@ -1445,7 +1450,7 @@ img#wpstats {
 	}
 	.widget-area {
 		float: right;
-		width: 26.041666667%;
+		width: 24.041666667%;
 	}
 	.site-header h1,
 	.site-header h2 {
@@ -1464,6 +1469,23 @@ img#wpstats {
 		display: inline-block !important;
 		text-align: left;
 		width: 100%;
+    padding-left: 10px;
+	}
+	.main-navigation div.nav-menu-container {
+		float: left; 
+    padding-left: 30px; 
+    padding-top: 50px; 
+    width: 614px;
+	}
+	.main-navigation nav-search-container {
+		float: right; 
+    display: inline-block; 
+    margin-bottom: auto; 
+    margin-top: 50px; 
+    height: 38px; 
+    padding-top: 6px;
+    border-bottom: 1px solid #EDEDED;
+    border-top: 1px solid #EDEDED;
 	}
 	.main-navigation ul {
 		margin: 0;
